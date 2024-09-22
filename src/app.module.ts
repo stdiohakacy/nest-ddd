@@ -12,11 +12,11 @@ import { HttpModule } from '@nestjs/axios';
       type: 'postgres', // or your database type
       host: 'localhost',
       port: 5432,
-      username: 'test',
-      password: 'test',
-      database: 'test_db',
+      username: 'postgres',
+      password: 'postgres',
+      database: 'ddd_db',
       entities: [], // Ensure your entity is included here
-      synchronize: true,
+      // synchronize: true,
     }),
     EventEmitterModule.forRoot(),
     OrderManagementModule,

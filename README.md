@@ -1,4 +1,4 @@
-git clone git@github.com-cornal:stdiohakacy/nest-core-base.git
+git remote add origin git@github-cornal:stdiohakacy/nest-ddd.git
 
 Khi tổ chức cấu trúc thư mục cho dự án **NestJS** theo mô hình **Domain-Driven Design (DDD)**, mục tiêu chính là tách biệt các thành phần của domain (miền nghiệp vụ) và giữ cho code dễ dàng bảo trì, mở rộng, và hiểu rõ. **DDD** chia ứng dụng thành nhiều domain nhỏ, trong đó mỗi domain bao gồm các lớp và chức năng liên quan đến nghiệp vụ cụ thể.
 
